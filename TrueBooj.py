@@ -1,7 +1,7 @@
 def truebooj(number):
     '''
     function to return a number, or a string depending on if the remainder of
-    the number argument divided by 3, 5, or 10 is = to 0
+    the number argument divided by 3, 5, or 10 is = 0
     '''
 
     if number % 10 == 0:
