@@ -15,6 +15,6 @@ def eqindex(data):
         # check if sums is in backwards sum list, excluding the reverse index
         # and higher of the initial list
         if sums in bw_sums[:-(i+1)]:
-            # add one so indeces ar x[1], x[2], ... x[n] rather than
+            # add one so indices ar x[1], x[2], ... x[n] rather than
             # x[0], x[1], ... x[n-1]
             yield i + 1
