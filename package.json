@@ -1,0 +1,12 @@
+{
+  "name": "codetest",
+  "version": "0.1.0",
+  "author": "Josh Badger",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshbadger/equilibrium.git"
+  },
+  "scripts": {
+    "phpunit": "vendor/phpunit/phpunit/phpunit EquilibriumIndexTest.php"
+  }
+}
