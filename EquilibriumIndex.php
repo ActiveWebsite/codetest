@@ -34,7 +34,7 @@ function getEquilibriums(array $arr)
 
         // step off the viewing point and move it to the other side in prep for
         // our next iteration.
-        // $leftSum += $val;
+        $leftSum += $val;
     }
 
     return $output;
