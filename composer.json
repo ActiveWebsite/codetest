@@ -1,0 +1,16 @@
+{
+    "name": "jscodefix/codetest",
+    "description": "Fork of Booj PHP code test.",
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "authors": [
+        {
+            "name": "Jeff Sheffel",
+            "email": "jeff@sheffel.org"
+        }
+    ],
+    "minimum-stability": "dev"
+}
