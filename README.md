@@ -10,5 +10,6 @@ Write a function that, given a sequence, returns its equilibrium indices (if any
 
 ## Running the Test
 ```
-phpunit EquilibriumIndexTest.php
+composer install
+vendor/phpunit/phpunit/phpunit
 ```
