@@ -14,6 +14,7 @@
  * work without throwing any errors as long as an array is given
  * with numeric or numeric convetable (e.g. true, null, '0', etc.)
  * values.
+ */
 
 /**
  * Finds and returns the equilibrium indices of the provided array.
