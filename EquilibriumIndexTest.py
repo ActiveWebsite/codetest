@@ -7,4 +7,4 @@ d = ([-7, 1, 5, 2, -4, 3, 0],
  
 for data in d:
     print("Test: %r" % data)
-    print("Result: %r" % list(eqindex(data)))
+    print("Result: %r" % eqindex(data))
