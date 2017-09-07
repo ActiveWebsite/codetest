@@ -1,10 +1,10 @@
 <?php
 
 /** 
- * Equilibriution if the array is empty (contains no equilibrium points)m Point Function
+ * Equilibium Point Function
+ * 
  * This funciton calculates the equilibrium points of a given sequence. Equilibrium points are calculated
  * by checking to see whether the sum of the points on the either side of the equilibrium index are equal to each other.
- *
  *
  * @author Atir Javid <atirjavid@gmail.com>
  * @param array $arr
