@@ -4,9 +4,13 @@
  * Equilibium Point Function
  * 
  * This funciton calculates the equilibrium points of a given sequence. Equilibrium points are calculated
- * by checking to see whether the sum of the points on the either side of the equilibrium index are equal to each other.
+ * by checking to see whether the sum of the points on the either side of the equilibrium index are equal
+ * to each other. It seems many people are making this overly complicated in order to showcase their algorithmic 
+ * thinking. It seems that array_sum > language construct iteration (with its own processing overhead). Such 
+ * microoptimizations would only matter with large data sequences, and only after determining that as the bottleneck. 
  *
  * @author Atir Javid <atirjavid@gmail.com>
+ *
  * @param array $arr
  * @return array
 **/
