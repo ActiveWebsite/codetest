@@ -26,14 +26,14 @@ function getEquilibriums($arr)
   {
    	  // here we subtract each iterated index's value from the array/total sum
       // now we have divided the array into all the indexes to the right of the current iterated index
-   	  $right = $right - $v; 
+   	  $right -= $v; 
       
       // check to see if left == right. If so, we have an eq index, add it to the output to return
       if ($left == $right) $output[] = $k;
 
    	  // here we add the current iterated index's value to left, so it holds the sum of all the 
    	  // values on the left of the current iterated index.
-   	  $left = $left + $v;
+   	  $left += $v;
   } 
   return $output;
 }
